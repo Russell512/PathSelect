@@ -1,0 +1,3 @@
+# Preserve exact scientific source/cache/result bytes across clone platforms.
+* -text
+*.csv whitespace=cr-at-eol

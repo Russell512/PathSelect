@@ -1,0 +1,15 @@
+device: cpu
+threads: 4
+machine: local
+feat_dim: 512
+class_prompt_path: data/class_prompts.json
+f_txt_cache_dir: cache/text
+budget: 64
+chunk: 64
+tasks: [tcga_esca, tcga_rcc, tcga_brca, tcga_lung]
+path_split: /{}/datasplit/fold_{}.npz
+path_feat: /{}/feats-l1-s256_{}/pt_files
+path_table: /{}/table/{}_path_subtype_x10_processed.csv
+conch_path_feat: CONCH
+feat_format: pt
+fold: 1

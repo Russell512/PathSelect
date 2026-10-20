@@ -1,0 +1,5 @@
+# Copy to machine_local.yaml (ignored by Git), or use PATHSELECT_DATA_ROOT.
+machine: local
+dataset_root_dir: /path/to/can_dataset
+device: cpu
+threads: 4

@@ -1,0 +1,15 @@
+\begin{table}
+\centering
+\caption{Percent mean $\pm$ sample SD across 10 folds; original / reverse. A rows average five seeds within fold; external rerun uses seed=fold ID. For internal rows, Masked gives true task for both evidence and final class pair (oracle WP); external rerun Masked uses true-task pair argmax. Starred rows are literature reported results with original definitions; new rows from this study only. Delta is current minus preceding row; pp.}
+\begin{tabular}{lllllllllllllllll}
+\hline
+row & experiment & order & gamma & ACC\_percent & ACC\_sd\_pp & Masked\_ORACLE\_percent & Masked\_ORACLE\_sd\_pp & mean\_difference\_pp & wins & losses & ties & p\_raw & slide\_ci\_low\_pp & slide\_ci\_high\_pp & patient\_ci\_low\_pp & patient\_ci\_high\_pp \\
+a & LIN8\_MEAN & paper & 0.01 & 85.6625 & 2.94438 & 92.4323 & 2.00277 & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+a & LIN8\_MEAN & reverse & 0.01 & 85.6625 & 2.94438 & 92.4323 & 2.00277 & -- & -- & -- & -- & -- & -- & -- & -- & -- \\
+b & ROUTED\_MEAN & paper & 0.01 & 90.4479 & 2.39969 & 92.4323 & 2.00277 & 4.78538 & 10 & 0 & 0 & 0.00195312 & 3.36714 & 6.21201 & 3.33526 & 6.3885 \\
+b & ROUTED\_MEAN & reverse & 0.01 & 90.4479 & 2.39969 & 92.4323 & 2.00277 & 4.78538 & 10 & 0 & 0 & 0.00195312 & 3.36714 & 6.21201 & 3.33526 & 6.3885 \\
+c & B\_TOP64\_RIDGE & paper & 0.001 & 91.9882 & 2.21677 & 94.2044 & 1.53462 & 1.5403 & 9 & 1 & 0 & 0.0214844 & 0.39695 & 2.72666 & 0.439703 & 2.7041 \\
+c & B\_TOP64\_RIDGE & reverse & 0.001 & 91.9882 & 2.21677 & 94.2044 & 1.53462 & 1.5403 & 9 & 1 & 0 & 0.0214844 & 0.39695 & 2.72666 & 0.439703 & 2.7041 \\
+\hline
+\end{tabular}
+\end{table}

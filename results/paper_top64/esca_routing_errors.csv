@@ -1,0 +1,9 @@
+order,true_task,predicted_task,count,aggregation
+paper,tcga_esca,tcga_esca,140,pooled slide counts
+paper,tcga_esca,tcga_rcc,1,pooled slide counts
+paper,tcga_esca,tcga_brca,3,pooled slide counts
+paper,tcga_esca,tcga_lung,6,pooled slide counts
+reverse,tcga_esca,tcga_esca,140,pooled slide counts
+reverse,tcga_esca,tcga_rcc,1,pooled slide counts
+reverse,tcga_esca,tcga_brca,3,pooled slide counts
+reverse,tcga_esca,tcga_lung,6,pooled slide counts

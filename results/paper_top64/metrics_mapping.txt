@@ -1,0 +1,6 @@
+ACC: stage4 task macro, then seed-within-fold then 10-fold mean/sample SD.
+Masked (paper): Masked_ORACLE = true-task evidence and true-task pair.
+Legacy: Masked_ROUTED_EVIDENCE = predicted-task evidence, true-task pair; not primary.
+LIN8/ROUTED_MEAN share subtype W and oracle outputs.
+Forgetting: mean over first 3 tasks [max stages j..3 R[t,j] - R[4,j]], no clamp. BWT: R[4,j]-R[j,j].
+AIA: equal 4-stage mean. Two orders not independent. CV training sets overlap.

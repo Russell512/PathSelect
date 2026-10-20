@@ -1,0 +1,5 @@
+variant,stage,head_bytes,readout_S_R_W_bytes,router_S_R_W_bytes,texts_bytes,note
+A64,4,16528,2171016,2138184,16384,"resident model/statistics tensor bytes; excludes audit vectors, raw features and Python allocator"
+Afour,4,16528,2171016,2138184,16384,"resident model/statistics tensor bytes; excludes audit vectors, raw features and Python allocator"
+B64,4,0,2171016,2138184,16384,"resident model/statistics tensor bytes; excludes audit vectors, raw features and Python allocator"
+Bfour,4,0,2171016,2138184,16384,"resident model/statistics tensor bytes; excludes audit vectors, raw features and Python allocator"

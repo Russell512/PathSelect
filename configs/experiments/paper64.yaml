@@ -1,0 +1,21 @@
+base_commit: f5813cd81c845ff11549d69615c32ede6d32c971
+study_id: paper_top64_20261016
+folds: [1,2,3,4,5,6,7,8,9,10]
+seeds: [42,43,44,45,46]
+orders: [paper, reverse]
+stages: [1,2,3,4]
+threads: 4
+rank: 2
+epochs: 5
+lr: 0.0005
+weight_decay: 0.0001
+pooling: raw_mean_then_l2
+training_pooling: selected_score_softmax
+budget: 64
+step: 16
+lambda: 1.5
+gamma_tp: 0.001
+gamma_grid: [0.00001,0.0001,0.001,0.01,0.1]
+budgets: [16,32,64,128,256]
+bootstrap_slide: {replicates: 1000, seed: 0, generator: torch}
+bootstrap_patient: {replicates: 10000, seed: 20261014, generator: numpy}

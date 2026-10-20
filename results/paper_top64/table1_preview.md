@@ -1,0 +1,19 @@
+| Method | Buf. | BP | ACC | Masked | Forgetting |
+| --- | --- | --- | --- | --- | --- |
+| Joint training* | all | yes | 90.80 ± 2.20 / 90.80 ± 2.20 | 93.70 ± 2.20 / 93.70 ± 2.20 | — / — |
+| Fine-tuning* | 0 | yes | 30.80 ± 4.50 / 23.40 ± 0.80 | 84.40 ± 3.80 / 80.30 ± 6.00 | 84.10 ± 5.40 / 92.70 ± 2.30 |
+| EWC* | 0 | yes | 30.90 ± 5.10 / 23.50 ± 1.10 | 84.00 ± 3.50 / 83.30 ± 6.90 | 83.60 ± 6.40 / 92.80 ± 2.00 |
+| LwF* | 0 | yes | 37.80 ± 8.10 / 23.60 ± 1.60 | 91.60 ± 3.10 / 90.00 ± 4.10 | 73.10 ± 11.60 / 90.80 ± 3.00 |
+| A-GEM* | 30 | yes | 43.60 ± 5.80 / 53.60 ± 4.70 | 87.90 ± 4.50 / 87.20 ± 2.60 | 67.00 ± 7.20 / 52.70 ± 6.70 |
+| ER-ACE* | 30 | yes | 66.60 ± 4.90 / 70.30 ± 4.90 | 91.70 ± 2.30 / 88.90 ± 4.10 | 7.50 ± 5.70 / 28.10 ± 6.20 |
+| DER++* | 30 | yes | 74.90 ± 5.50 / 68.40 ± 5.50 | 90.40 ± 2.90 / 91.00 ± 4.30 | 21.90 ± 5.90 / 31.00 ± 6.90 |
+| ER* | 30 | yes | 79.00 ± 4.00 / 64.40 ± 2.80 | 89.40 ± 3.60 / 90.10 ± 3.50 | 18.60 ± 4.40 / 38.70 ± 5.00 |
+| AttriCLIP* | 0 | yes | 61.60 ± 5.60 / 69.40 ± 5.80 | 84.40 ± 2.60 / 86.10 ± 1.90 | 28.50 ± 5.90 / 20.70 ± 6.30 |
+| MI-Zero* | 0 | no | 83.90 ± 3.40 / 83.90 ± 3.40 | 90.90 ± 1.90 / 90.90 ± 1.90 | — / — |
+| QPMIL-VL* | 0 | yes | 89.00 ± 2.10 / 85.90 ± 3.20 | 93.00 ± 1.80 / 92.50 ± 1.80 | 2.70 ± 1.40 / 6.40 ± 3.10 |
+| QPMIL-VL (our rerun) | 0 | yes | 88.73 ± 2.49 / 84.16 ± 5.62 | 92.81 ± 1.95 / 92.33 ± 2.20 | 3.10 ± 1.38 / 9.46 ± 7.12 |
+| Ridge, 8 classes, mean | 0 | no | 85.66 ± 2.94 / 85.66 ± 2.94 | 92.43 ± 2.00 / 92.43 ± 2.00 | 1.01 ± 0.86 / 9.07 ± 3.21 |
+| PathSelect (one-shot top-64) | 0 | no | 91.99 ± 2.22 / 91.99 ± 2.22 | 94.20 ± 1.53 / 94.20 ± 1.53 | 0.87 ± 0.89 / 2.24 ± 1.84 |
+| + residual head | 0 | yes | 92.38 ± 1.99 / 92.38 ± 1.99 | 94.51 ± 1.47 / 94.51 ± 1.47 | 0.86 ± 0.46 / 2.26 ± 1.63 |
+
+Percent mean ± sample SD across 10 folds; original / reverse. A rows average five seeds within fold; external rerun uses seed=fold ID. For internal rows, Masked gives true task for both evidence and final class pair (oracle WP); external rerun Masked uses true-task pair argmax. Starred rows are literature reported results with original definitions; new rows from this study only.

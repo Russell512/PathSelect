@@ -1,0 +1,163 @@
+{
+  "study": "paper_top64_20261016",
+  "primary": "B_TOP64_RIDGE",
+  "accepted": true,
+  "original_delivery_sha256": "f559aa74188bdf17aec8f75684ccc757a180c023aa1ddae4578f3b2d923ab6f4",
+  "files": [
+    {
+      "file": "table1.csv",
+      "sha256": "c36096c416be069d3505445ec730aaa20b21048e01357023b0644819ed0548cb",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "table1.tex",
+      "sha256": "b887dc4bdd8641527febda5cf02cc23c46e52972647edfeebf6d45bedb44e314",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "table1_preview.md",
+      "sha256": "31e0ad646a794b63826fecb092caffd0d5b5aa5fc7babe11c34bb2c720e9e092",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "table2_ladder.csv",
+      "sha256": "16861833ebe6a7fb35ae01811da7ae41cc41b8f2c6808565deadaf6463708a2d",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "table2_ladder.tex",
+      "sha256": "077181b516cdf1a68df3cd973d0b61027251fc798206506c4fc88e9a166140f6",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "table2_ladder.md",
+      "sha256": "7288ee082b70d26d370b100b29e382ec26b98287fd825a0444cc8d37a3b35316",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "table2_factorial.csv",
+      "sha256": "71b97e93082e96458327ae0fccd26ed2df6e48cf323138d3f8d5dde7da2aaaf2",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "table2_factorial.tex",
+      "sha256": "fe0dd125730296b597e7f7004bafa73bf66c504349114fc7d720bea31fb7ba98",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "table2_factorial.md",
+      "sha256": "6e7d340addbb78249c09fb1b20b8da609dd652ae0b74939db80e682e9b57b631",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "random64_control.csv",
+      "sha256": "0ae0f8f9ccac602a8863a89a664668bc606e755356d2250fb55b2c504d915c7c",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "selection_four16_vs_top64.csv",
+      "sha256": "1d13ea1b0edc4ad027e2753d27cb8980c220bf1b0d142b1bfaf52b64e4033bc6",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "selection_four16_vs_top64_3seed.csv",
+      "sha256": "57dba73b513ad402d8b60cac11361f464e4d9a1a0d3ec74904e9138395811f03",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "selection_four16_vs_top64_5seed.csv",
+      "sha256": "f3241cb0ed526b55ac9f7b86c7dad2a64b5393997b7ebe46791db44c2343642c",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "budget_sweep.csv",
+      "sha256": "7aae8ac1d36d63a0de3201fcc53270e7ebf4bce54d5ff1212d2629c67ee60f6f",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "gamma_validation.csv",
+      "sha256": "7373c7c27abdfecd36021065ea6b4147216d803c692406652d5724fcfc12ba77",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "gamma_test_sensitivity.csv",
+      "sha256": "b81981999c04644d61f46f6e3d3a53d88bb4acacc258b66116d325c96aed97e4",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "per_fold.csv",
+      "sha256": "abe9f374c0e7a2698cfd08954661524427db46b469bae05c8b39bc3076fda0ca",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "per_seed_fold.csv",
+      "sha256": "94989cd3de75fb8aaa21ce314f021021865e01f33bda86732cd1f530dc290414",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "stage_curves.csv",
+      "sha256": "98e6786530c2f75828498b9eb0773c20a5228a3a8de5293007893aeb850a4cd3",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "per_task.csv",
+      "sha256": "f12884ca9b3e958804b17c762e4efd2b8f072d6ddf400a903a550f8c138b2a6e",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "per_class.csv",
+      "sha256": "641c8e27b3af5915de304e8af9bb92fd3c88c1abbc224bdd15c9810f94c0c670",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "confusion.csv",
+      "sha256": "8cec081b9a62d6c6af9bf529a58f9df09931d57a9a236c52a083b05b698bd8ae",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "router_errors.csv",
+      "sha256": "c3cdeed43cd61cb6d2b6b505cc9d688d8716a003e6eb4b1868eeba54f3d09ec9",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "esca_routing_errors.csv",
+      "sha256": "ec2c08e45429017d90e9aae1e383f7935320dac4efe07597b86b70a71e2d0029",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "pooled_counts.csv",
+      "sha256": "7e67d1f8af23990fc0bf4a4c25c3b647af91d9a6f80c78d8637787960728c290",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "paired_comparisons.csv",
+      "sha256": "d3e763a25398fd62f4d2de5c66e445953f84c6819c9833321a163375f032dcce",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "timing_summary.csv",
+      "sha256": "cd7608ae4892b45840d4bb23ddb8e35ff6bd0a4ffc50eac1e78c9644aad55348",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "selection_speedup.csv",
+      "sha256": "8b377a8971ae0c3d5bc135f351896537c47f229ea85f2fd4c44c4103867adcf7",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "model_state_bytes.csv",
+      "sha256": "409fc93e4652dde6efc08ea2738b9e9cc58fd2e4894c02e79b087e85aa41f621",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "metrics_mapping.txt",
+      "sha256": "a16f38d4e0befcddde06fc844e1c7d77ec1149d44cebd3c0edff179739b20923",
+      "mode": "byte-identical aggregate export"
+    },
+    {
+      "file": "masked_definition_audit.md",
+      "sha256": "a10158521a6da6ee53906db7114e8add07bbc1be3575b4329ce6949fb031ef36",
+      "mode": "byte-identical aggregate export"
+    }
+  ]
+}

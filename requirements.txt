@@ -1,0 +1,8 @@
+# Tested CPU environment. Install torch from the CPU index first; see README.
+torch==2.11.0
+numpy==2.4.4
+pandas==3.0.2
+h5py==3.16.0
+PyYAML==6.0.1
+scipy==1.18.1
+pytest==9.1.1
